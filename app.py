@@ -7,7 +7,7 @@ import streamlit as st
 st.set_page_config(page_title="Crypto Price Tracker", page_icon="🪙", layout="wide")
 
 # Custom Dark styling to match your friend's original colors
-st.markdown(
+st.html(
     """
     <style>
     .stApp { background-color: #0d1117; color: #ffffff; }
@@ -18,8 +18,7 @@ st.markdown(
         border-radius: 8px;
     }
     </style>
-""",
-    unsafe_html=True,
+    """
 )
 
 # ---------- DATA FETCHING (Your Friend's Logic) ----------
