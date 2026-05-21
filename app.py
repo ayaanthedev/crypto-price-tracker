@@ -119,3 +119,6 @@ st.markdown("---")
 # Quick interactive refresh button for the grading expo team
 if st.button("🔄 Click to Refresh Prices"):
     st.rerun()
+
+st.markdown("---")
+st.caption("Hosted by Ayaan Sajid • Made by Ibrahim Adeel")
